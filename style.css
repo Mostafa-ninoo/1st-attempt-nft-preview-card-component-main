@@ -8,7 +8,7 @@ body {
 main {
     font-family: 'Outfit', sans-serif;
     display: flex;
-    height: 800px;
+    height: 730px;
     width: 1440px;
     background-color: hsl(217, 54%, 11%);
     justify-content: center;
