@@ -2,8 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    height: 100vh;
-     background-color: hsl(217, 54%, 11%);
+    height: 100vh;  
 }
 
 main {
@@ -13,6 +12,7 @@ main {
     width: 1440px;
     justify-content: center;
     align-items: center;
+      background-color: hsl(217, 54%, 11%); 
 }
 
 section {
