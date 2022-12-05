@@ -1,0 +1,100 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+main {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    height: 730px;
+    width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 600px;
+    width: 340px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+section h1 {
+    margin-left: 20px;
+    color: white;
+}
+
+section p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+section span {
+    color: hsl(178, 100%, 50%);
+}
+
+section span img {
+    width: 10px;
+    height: 15px;
+}
+
+section #one {
+    color: hsl(215, 51%, 70%);
+    margin-left: 90px;
+
+}
+
+section #one img {
+    height: 15px;
+    width: 15px;
+}
+
+#verticle-line {
+    background-color: hsl(215, 32%, 27%);
+    width: 290px;
+    height: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+}
+
+footer #first {
+    position: relative;
+    bottom: 10px;
+}
+
+footer #two {
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+footer #three {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+
+@media screen and (max-width : 450px) {
+    main {
+        width: 375px;
+    }
+}
